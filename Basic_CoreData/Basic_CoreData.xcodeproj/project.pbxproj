@@ -14,6 +14,8 @@
 		87F951172AD25C5300B50B1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F951162AD25C5300B50B1B /* Assets.xcassets */; };
 		87F9511A2AD25C5300B50B1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F951182AD25C5300B50B1B /* LaunchScreen.storyboard */; };
 		87F951232AD25C7F00B50B1B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87F951212AD25C7F00B50B1B /* Model.xcdatamodeld */; };
+		87F951262AD25F4D00B50B1B /* Todo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F951242AD25F4D00B50B1B /* Todo+CoreDataClass.swift */; };
+		87F951272AD25F4D00B50B1B /* Todo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F951252AD25F4D00B50B1B /* Todo+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		87F951192AD25C5300B50B1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87F9511B2AD25C5300B50B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87F951222AD25C7F00B50B1B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		87F951242AD25F4D00B50B1B /* Todo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		87F951252AD25F4D00B50B1B /* Todo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 		87F951012AD25C5200B50B1B = {
 			isa = PBXGroup;
 			children = (
+				87F951242AD25F4D00B50B1B /* Todo+CoreDataClass.swift */,
+				87F951252AD25F4D00B50B1B /* Todo+CoreDataProperties.swift */,
 				87F9510C2AD25C5200B50B1B /* Basic_CoreData */,
 				87F9510B2AD25C5200B50B1B /* Products */,
 			);
@@ -144,7 +150,9 @@
 				87F951122AD25C5200B50B1B /* ViewController.swift in Sources */,
 				87F9510E2AD25C5200B50B1B /* AppDelegate.swift in Sources */,
 				87F951102AD25C5200B50B1B /* SceneDelegate.swift in Sources */,
+				87F951262AD25F4D00B50B1B /* Todo+CoreDataClass.swift in Sources */,
 				87F951232AD25C7F00B50B1B /* Model.xcdatamodeld in Sources */,
+				87F951272AD25F4D00B50B1B /* Todo+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
